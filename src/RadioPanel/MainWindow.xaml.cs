@@ -1,4 +1,7 @@
 ﻿using FsConnect.Managers;
+
+using RadioPanel.Models;
+
 using System;
 using System.ComponentModel;
 using System.Windows;
@@ -148,7 +151,6 @@ namespace RadioPanel
                 e.Handled = true;
             }
         }
-
         private void SelectText(object sender, RoutedEventArgs e)
         {
             txtComSTBY.Text = "0";

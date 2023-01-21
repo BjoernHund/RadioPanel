@@ -1,6 +1,6 @@
 ﻿using RadioPanel.Core;
 
-namespace RadioPanel
+namespace RadioPanel.Models
 {
     public class RadioInformation : ObserveableObject
     {
